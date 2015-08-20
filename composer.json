@@ -1,0 +1,15 @@
+{
+  "name": "typo3-themes/themes",
+  "type": "typo3-cms-extension",
+  "description": "typo3-themes/themes extension",
+  "homepage": "http://typo3.org",
+  "version": "2.5.0",
+  "require": {
+    "typo3/cms-core": ">=6.2.1,<8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KayStrobach\\Themes\\": "Classes"
+    }
+  }
+}
